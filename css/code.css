@@ -1,0 +1,53 @@
+/* .container{
+  display: block;
+} */
+
+.code{
+  /* display: flex; */
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.game-desc{
+  padding-top: 0px;
+}
+
+#skulpt{
+  display: flex;
+  justify-content: center;
+}
+
+.codeskulptor{
+  text-align: center;
+}
+
+.minis{
+  width: 50%;
+  /* margin: auto; */
+  font-weight: bold;
+  font-style: italic;
+}
+
+.coding-proj{
+  width: 100%;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: baseline;
+}
+
+/* .coding-proj-mini{
+  width: 100%;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: baseline;
+} */
+
+.coding-proj .title{
+  width: 30%;
+}
+
+.coding-proj .coding-desc{
+  width: 50%;
+}

@@ -1,0 +1,49 @@
+
+
+
+.featured{
+  width: 100%;
+  padding: 15px;
+}
+
+.heading{
+  display: flex;
+  width: 100%;
+}
+
+
+article img{
+  width: 200px;
+  padding-top: 1px;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.date{
+  width: 50%;
+  font-size: 10px;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  margin: 0px;
+}
+
+.home-title{
+  width: 100%;
+}
+
+#news{
+  text-align: center;
+}
+
+#news .title{
+  width: 100%;
+  /* border-top: solid; */
+}
+
+.article-break{
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+}

@@ -1,0 +1,131 @@
+main{
+  /* width: 80%;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+.abt-div{
+  padding: 10px;
+}
+
+#attributes{
+  width: 60%;
+}
+
+#attributes article{
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  border-color: rgba(0,0,50,0.3);
+  border-radius: 2px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+#my-image{
+  width: 200px;
+  float: left;
+}
+
+#bootstrap-overrides .title{
+  width: 30%;
+}
+
+#bootstrap-overrides .desc{
+  width: 70%;
+  float: left;
+}
+
+.desc{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo{
+  width: 100px;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.social{
+  overflow: auto;
+}
+
+.social-links{
+  display: grid;
+  display: flex;
+  margin: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.wood1{
+  width: 70%;
+}
+
+.wood2{
+  /* float: right; */
+  display: grid;
+
+  /* text-align: center; */
+  width: 30%;
+  padding: 0;
+}
+
+.wood2 img{
+  /* text-align: center; */
+  display: inline;
+  float: none;
+}
+
+#wood-turn{
+  display: flex;
+}
+
+#wood-turn .wood2{
+  padding: 0;
+  text-align: center;
+}
+
+.wood2 p{
+  margin: 0px;
+  font-size: 14px;
+}
+
+#family{
+  display: flex;
+  text-align: center;
+}
+
+#family .favicons{
+  width: 25px;
+}
+
+.fam1{
+  width: 70%;
+  text-align: left;
+}
+
+.fam2{
+  width: 30%;
+  display: grid;
+}
+
+.fam2 img{
+  float: none;
+}
+
+.soc1{
+  width: 70%;
+}
+
+.soc2{
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#social {
+  display: flex;
+}
