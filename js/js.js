@@ -3,8 +3,12 @@ $(document).ready(function(){
 // regarding old posts "archives"
   $('.archived').hide();
 
-  $('.archive-link').click(function(){
-    $('.archived').toggle();
+  $('#2021').click(function(){
+    $('.21').toggle();
+  });
+
+  $('#2022').click(function(){
+    $('.22').toggle();
   });
 
 // regarding lyrics

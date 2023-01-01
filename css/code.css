@@ -1,11 +1,41 @@
-/* .container{
-  display: block;
-} */
+/* /////////////////////////// */
+/* ////// MAIN CODE PAGE //////*/
+/* /////////////////////////// */
 
-.code{
-  /* display: flex; */
-  padding-left: 50px;
-  padding-right: 50px;
+section{
+  display: flex;
+}
+
+div article{
+  justify-content: flex-start;
+  width: 48%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* applies extra margin to bottom of this section so it's symmetrical */
+#right-bot{
+  margin-bottom: 10px;
+}
+#left-bot{
+  margin-bottom: 10px;
+}
+
+/* fixes margins between each article */
+.leftside{
+  margin: 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.rightside{
+  margin: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.code-article{
+  display: flex;
+  padding: 0;
 }
 
 .game-desc{
@@ -23,7 +53,6 @@
 
 .minis{
   width: 50%;
-  /* margin: auto; */
   font-weight: bold;
   font-style: italic;
 }
@@ -35,14 +64,6 @@
   padding-bottom: 40px;
   align-items: baseline;
 }
-
-/* .coding-proj-mini{
-  width: 100%;
-  display: flex;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  align-items: baseline;
-} */
 
 .coding-proj .title{
   width: 30%;
