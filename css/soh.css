@@ -150,10 +150,6 @@ a:hover{
 
 footer{
   width: 100%;
-  /* margin-left: 15%;
-  margin-right: 15%; */
-  /* margin-top: 20px;
-  margin-bottom: 20px; */
   margin-top: 20px;
   font-variant: small-caps;
   text-align: center;
@@ -161,10 +157,6 @@ footer{
   background-color: black;
   color: white;
   padding: 20px;
-}
-
-.footer{
-  /* padding: 20px; */
 }
 
 #foot-links{
@@ -185,10 +177,6 @@ footer{
 footer a{
   padding-left: 10px;
   padding-right: 10px;
-}
-
-footer p{
-  /* padding: 10px; */
 }
 
 footer .favicons{
