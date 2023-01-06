@@ -1,0 +1,55 @@
+/* /////////////////////////// */
+/* ////// MAIN METAL PAGE //////*/
+/* /////////////////////////// */
+
+.metal{
+  height: auto;
+  margin-bottom: 50px;
+  /* border: 1px;
+  border-style: solid;
+  border-color: black;
+  border-color: rgba(0,0,50,0.3);
+  border-radius: 20px; */
+  margin-bottom: 30px;
+  /* padding: 10px; */
+  display: flex;
+  /* justify-content: center; */
+}
+
+.page-description div{
+  width: 100%;
+  text-align: left;
+}
+
+article img{
+  float: left;
+  border-radius: 10px;
+}
+/* over rides float left from article img. for example pics. */
+.non-dug img{
+  float: none;
+  /* text-align: center; */
+  /* width: 100px; */
+}
+.round img{
+  border-radius: 75px;
+}
+
+article div{
+  width: 50%;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.metal img{
+  width: 150px;
+}
+
+#pfennig{
+  width: 100px;
+}
+
+div #pewter-button{
+  
+}

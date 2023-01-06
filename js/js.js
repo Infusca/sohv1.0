@@ -11,6 +11,8 @@ $(document).ready(function(){
     $('.22').toggle();
   });
 
+  $('.lyrics').hide();
+
 // regarding lyrics
 
   // var songList = ['model', 'foolin', 'staying', 'every', 'queen'];

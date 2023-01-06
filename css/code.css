@@ -6,12 +6,12 @@ section{
   display: flex;
 }
 
-div article{
+/* div article{
   justify-content: flex-start;
   width: 48%;
   padding-left: 10px;
   padding-right: 10px;
-}
+} */
 
 /* applies extra margin to bottom of this section so it's symmetrical */
 #right-bot{
@@ -33,10 +33,15 @@ div article{
   margin-bottom: 5px;
 }
 
-.code-article{
+/* .code-article{
   display: flex;
   padding: 0;
-}
+} */
+
+/* .code-figure{
+  display: flex;
+  padding: 0;
+} */
 
 .game-desc{
   padding-top: 0px;
