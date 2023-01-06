@@ -69,34 +69,6 @@ section{
 
 
 /* LARGE IMAGE/MODELS */
-.model-cover{
-  /* width: 80%; */
-  /* opacity: 95%;
-  color: rgb(0, 0, 0);
-  position: absolute;
-  cursor: pointer;
-  padding: 0px; */
-  /* display: flex; */
-}
-
-/* .model-cover img{
-  width: 85%;
-}
-
-.model-cover img:hover{
-  cursor: pointer;
-} */
-
-#model-lg{
-  /* /* position: absolute; */
-  /* width: 80%; */
-  /* opacity: 95%;  */
-  /* justify-content: center; */
-  /* color: black; */
-  /* z-index: ; */
-  /* cursor: pointer;
-  text-align: center; */
-}
 
 /* Modal background */
 .modal{
