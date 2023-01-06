@@ -10,6 +10,11 @@ section{
 .cd-img{
     width: 250px;
     float: left;
+    cursor: pointer;
+}
+
+.cd-img:hover{
+  opacity: 0.7;
 }
 
 .song-list{
@@ -33,20 +38,6 @@ section{
   #music{
     display: block;
   }
-  
-  /* .cd{
-    height: auto;
-    margin-bottom: 50px;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    border-color: rgba(0,0,50,0.3);
-    border-radius: 2px;
-    margin-bottom: 30px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-  } */
   
   .contents{
     display: flex;
@@ -72,5 +63,70 @@ section{
     height: 100%;
     overflow-y: scroll;
     padding: 5px;
+    display: none;
   }
   
+
+
+/* LARGE IMAGE/MODELS */
+.model-cover{
+  /* width: 80%; */
+  /* opacity: 95%;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  cursor: pointer;
+  padding: 0px; */
+  /* display: flex; */
+}
+
+/* .model-cover img{
+  width: 85%;
+}
+
+.model-cover img:hover{
+  cursor: pointer;
+} */
+
+#model-lg{
+  /* /* position: absolute; */
+  /* width: 80%; */
+  /* opacity: 95%;  */
+  /* justify-content: center; */
+  /* color: black; */
+  /* z-index: ; */
+  /* cursor: pointer;
+  text-align: center; */
+}
+
+/* Modal background */
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 10;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+  opacity: 90%;
+}
+
+/* Modal Content */
+.modal-content{
+  margin: auto;
+  display: block;
+  width: 50%;
+  max-width: 700px;
+  z-index: 2;
+}
+
+/* Modal Close Button */
+.close{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
