@@ -1,0 +1,28 @@
+#FWHS{
+    width: 800px;
+    height: 180px;
+}
+
+@font-face {
+        font-family: 'octin spraypaint';
+        src: url('fonts/octin spraypaint a rg.otf');
+    }
+
+@font-face {
+    font-family: 'rayando   ';
+    src: url('Rayando-xj18.ttf');
+}
+
+@font-face {
+    font-family: 'uniquely sprayed';
+    src: url('fonts/UniquelySprayed-PXOx.ttf');
+}
+
+@font-face {
+    font-family: 'world conflict';
+    src: url('fonts/WorldConflictRegular-p26R.ttf');
+}
+
+h1{
+        font-family:'world conflict';
+    }
